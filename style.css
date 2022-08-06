@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(10, 10, 90);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+section{
+    background-color: rgba(20, 49, 211, 0.918);
+    border-radius: 30px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    text-align: center; 
+}
+
+
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    background-color: rgb(18, 10, 75);
+    margin: auto;
+    width: 300px;
+    height: 30px;
+    border-radius: 16px;
+}
+
+
+
+#p1{
+    margin-right: 23px;
+}
+
+
+input{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    
+}
+
+#but{
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+    
+}
+
+#but:hover{
+      background-color: rgba(243, 210, 196, 0.50);
+}
+
+#but2{
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+
+#but2:hover{
+    background-color: rgba(243, 210, 196, 0.50);
+
+}
+
+@media screen and (max-width: 600px){
+    header{
+        font-size: 15px;
+        margin-top: 3rem;
+    }
+
+    section{
+        width: 350px;
+    }
+
+    footer{
+        font-size: 20px;
+        
+    }
+
+    input{
+        height: 1.5rem;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+

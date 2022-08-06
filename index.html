@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CALCULADORA IMC</h1>
+    </header>
+
+    <section>
+        <div>
+            <p id = 'p1'> Peso: <input type="number" name="peso" id="txtpeso" placeholder="Seu Peso..."> Kg</p>
+            <p> Altura: <input type="number" name="altura" id="txtaltura" placeholder="Sua Altura..."> Metros  </p>
+            <p><input id = 'but' type="button" value="Calcular" onclick="calcular()"></p>
+            <hr>
+        </div>
+
+        <div id = 'res'>
+            Informe seu Peso e sua Altura para verificar sua Saúde Corporal!
+        </div>
+
+        <div>
+            <hr>
+            <p><input id = 'but2' type="button" value="Limpar" onclick="limpar()"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Feito por: VictorGarcia</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
