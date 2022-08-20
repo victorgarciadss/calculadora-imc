@@ -54,19 +54,21 @@ input{
     
 }
 
-#but:hover{
-      background-color: rgba(243, 210, 196, 0.50);
+@media screen and (min-width: 600px){
+    #but:hover{
+        background-color: rgba(243, 210, 196, 0.50);
+    }
+    
+    #but2:hover{
+        background-color: rgba(243, 210, 196, 0.50);
+    }
 }
+
 
 #but2{
     height: 30px;
     width: 70px;
     cursor: pointer;
-}
-
-#but2:hover{
-    background-color: rgba(243, 210, 196, 0.50);
-
 }
 
 @media screen and (max-width: 600px){
@@ -81,30 +83,18 @@ input{
 
     footer{
         font-size: 20px;
-        
     }
 
     input{
         height: 1.5rem;
-        
+    }
+
+    #but:active{
+        background-color: rgba(243, 210, 196, 0.50);
+    }
+    
+    #but2:active{
+        background-color: rgba(243, 210, 196, 0.50);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
 
